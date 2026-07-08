@@ -44,8 +44,10 @@
 
     .toolbar {
       display: flex;
+      gap: 14px;
       justify-content: flex-end;
       margin-bottom: 16px;
+      flex-wrap: wrap;
     }
 
     a {
@@ -78,6 +80,10 @@
         padding: 20px;
         border-radius: 8px;
       }
+
+      .toolbar {
+        justify-content: flex-start;
+      }
     }
   </style>
 </head>
@@ -85,6 +91,7 @@
   <main>
     <article>
       <div class="toolbar">
+        <a href="./data-deletion.html">데이터 삭제 요청 안내</a>
         <a href="./PRIVACY-POLISH.md">Markdown 원문 보기</a>
       </div>
       <pre id="policy" class="fallback">개인정보처리방침을 불러오는 중입니다.</pre>

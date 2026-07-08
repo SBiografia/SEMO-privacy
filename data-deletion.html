@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SEMO 데이터 삭제 요청</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f8fb;
+      --surface: #ffffff;
+      --text: #1f2937;
+      --muted: #667085;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR",
+        "Apple SD Gothic Neo", Roboto, Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    main {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 32px 18px 48px;
+    }
+
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      box-shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
+    }
+
+    .toolbar {
+      display: flex;
+      gap: 14px;
+      justify-content: flex-end;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      margin: 0 0 18px;
+      font-size: 30px;
+      line-height: 1.3;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    ul {
+      margin: 0 0 18px;
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .meta {
+      margin-bottom: 24px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--border);
+      color: var(--muted);
+    }
+
+    .meta p {
+      margin-bottom: 4px;
+    }
+
+    strong {
+      color: var(--text);
+    }
+
+    @media (max-width: 640px) {
+      main {
+        padding: 18px 12px 32px;
+      }
+
+      article {
+        padding: 20px;
+        border-radius: 8px;
+      }
+
+      .toolbar {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <div class="toolbar">
+        <a href="./">개인정보처리방침 보기</a>
+        <a href="./DATA-DELETION.md">Markdown 원문 보기</a>
+      </div>
+      <h1>SEMO 데이터 삭제 요청</h1>
+      <div class="meta">
+        <p><strong>앱 이름:</strong> SEMO</p>
+        <p><strong>개발자:</strong> SEUNGBO LEE</p>
+        <p><strong>문의 이메일:</strong> <a href="mailto:sbsemo91@gmail.com">sbsemo91@gmail.com</a></p>
+      </div>
+      <p>SEMO는 계정 기반 앱이 아니며, 사용자가 앱 안에서 별도의 계정을 생성하거나 로그인하지 않습니다.</p>
+      <p>SEMO는 Firebase Analytics 및 Crashlytics를 통해 앱 사용 통계, 충돌 로그, 진단 정보, 기기 또는 기타 식별자와 관련된 데이터를 수집할 수 있습니다.</p>
+      <p>사용자는 Firebase 관련 데이터 삭제 또는 개인정보 관련 문의를 아래 이메일로 요청할 수 있습니다.</p>
+      <p><strong>이메일:</strong> <a href="mailto:sbsemo91@gmail.com">sbsemo91@gmail.com</a></p>
+      <p>요청 시 아래 정보를 포함해 주세요.</p>
+      <ul>
+        <li>앱 이름: SEMO</li>
+        <li>요청 내용: Firebase 관련 데이터 삭제 요청</li>
+        <li>사용 기기 정보</li>
+        <li>앱 버전</li>
+        <li>요청자 연락처 이메일</li>
+      </ul>
+      <p>SEMO는 계정 기반 앱이 아니므로 특정 사용자의 Firebase 데이터를 직접 식별하거나 삭제하는 데 제한이 있을 수 있습니다. 이 경우 요청 내용을 검토한 뒤 가능한 범위 내에서 처리 방법을 안내합니다.</p>
+      <p>일부 데이터는 법적 의무, 보안, 오류 분석, 통계 목적 또는 Firebase의 보관 정책에 따라 일정 기간 보관될 수 있습니다.</p>
+    </article>
+  </main>
+</body>
+</html>
